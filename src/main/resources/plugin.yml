@@ -1,0 +1,14 @@
+name: CustomMusicDiscs
+version: 1.0.0
+main: me.roan.custommusicdiscs.CustomMusicDiscsPlugin
+api-version: '1.21'
+authors: [Roan]
+commands:
+  customdisc:
+    description: Creates a custom music disc item.
+    usage: /customdisc <name> <url.ogg> <color>
+    permission: customdisc.use
+permissions:
+  customdisc.use:
+    description: Allows using /customdisc
+    default: op
