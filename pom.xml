@@ -5,7 +5,7 @@
 
     <groupId>me.roan</groupId>
     <artifactId>custommusicdiscs</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.2</version>
     <name>CustomMusicDiscs</name>
     <description>Paper plugin that creates custom disc items from a command.</description>
 

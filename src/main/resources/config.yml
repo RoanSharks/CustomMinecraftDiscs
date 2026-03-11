@@ -1,0 +1,21 @@
+resource-pack:
+  public-url: "http://127.0.0.1:8077/pack.zip"
+  auto-send-on-join: false
+  pack-format: 34
+  http:
+    enabled: true
+    port: 8077
+    path: "/pack.zip"
+
+download:
+  connect-timeout-ms: 5000
+  read-timeout-ms: 15000
+  max-size-bytes: 20971520
+
+playback:
+  use-vanilla-jukebox: true
+  world-name: "world"
+  datapack-format: 61
+  default-length-seconds: 180.0
+  radius: 24
+  volume: 1.0
